@@ -1,0 +1,10 @@
+package com.poly.abstracts;
+
+public abstract class Fruits {
+	private int price;
+	public Fruits(){}
+	public void setPrice(final int price){
+		this.price = price;
+	}
+	abstract public void printPrice();
+}
