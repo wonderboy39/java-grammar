@@ -1,12 +1,12 @@
 package com.poly.general;
 
-public class Fruits {
+public class Mango extends Fruits{
 	private int price;
-	public Fruits(){}
+	public Mango(){}
 	public void setPrice(final int price){
 		this.price = price;
 	}
 	public void printPrice(){
-		System.out.println("Fruits... printPrice()");
+		System.out.println("MANGO :: " + String.valueOf(this.price) + " Won.");
 	}
 }
