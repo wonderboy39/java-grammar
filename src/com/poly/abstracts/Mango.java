@@ -11,5 +11,10 @@ public class Mango extends Fruits{
 		// TODO Auto-generated method stub
 		System.out.println("MANGO :: " + String.valueOf(this.price) + " Won.");
 	}
+	@Override
+	public void printFeatures() {
+		// TODO Auto-generated method stub
+		System.out.println("빙수만들어 먹으면 좋지요.");
+	}
 
 }

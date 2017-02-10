@@ -20,6 +20,8 @@ public class Main {
 		
 		for(Fruits fruit : fruits){
 			fruit.printPrice();
+			fruit.printFeatures();
+			System.out.println();
 		}
 	}
 }

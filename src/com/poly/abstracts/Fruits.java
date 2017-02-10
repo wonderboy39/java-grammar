@@ -7,4 +7,5 @@ public abstract class Fruits {
 		this.price = price;
 	}
 	abstract public void printPrice();
+	abstract public void printFeatures();
 }
