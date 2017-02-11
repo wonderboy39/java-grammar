@@ -28,8 +28,10 @@ public class Main {
 		System.out.println("prices of fruits... ");
 		for(Fruits fruit : fruits){
 			fruit.printPrice();
+			fruit.printFeatures();
+			System.out.println();
 		}
-		System.out.println("\n----------------");
+		System.out.println("----------------");
 		System.out.println("Duty of each items ...");
 		for(DutyBehavior duty : duties ){
 			duty.printDuty();

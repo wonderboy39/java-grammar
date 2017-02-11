@@ -16,4 +16,9 @@ public class Mango extends Fruits implements DutyBehavior{
 		// TODO Auto-generated method stub
 		System.out.println("MANGO, DUTY EXISTS !!" );
 	}
+	@Override
+	public void printFeatures() {
+		// TODO Auto-generated method stub
+		System.out.println("빙수만들어 먹으면 좋지요.");
+	}
 }

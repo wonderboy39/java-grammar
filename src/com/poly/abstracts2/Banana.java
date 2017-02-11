@@ -16,4 +16,9 @@ public class Banana extends Fruits implements DutyBehavior{
 		// TODO Auto-generated method stub
 		System.out.println("BANANA, DUTY EXISTS !!" );
 	}
+	@Override
+	public void printFeatures() {
+		// TODO Auto-generated method stub
+		System.out.println("비타민 A,D가 풍부하고, 소화가 잘되는 탄수화물 식품입니다.");
+	}
 }
